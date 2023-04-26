@@ -17,4 +17,4 @@ ENV TEST_BASEDIR=${EPICHOME}/landda-data/cycle_land/DA_GHCN_test/mem000/restarts
 
 #build & unit testing
 WORKDIR $HOME/land-offline_workflow
-RUN source /opt/spack-stack/.bashenv; mkdir build; cd build; pwd; ecbuild ..; make -j2; ctest -V --stop-on-failure
+RUN source /usr/share/lmod/lmod/init/bash; module use $HOME/land-offline_workflow/modulefiles; module load landda_container.intel; mkdir build; cd build; pwd; ecbuild ..; make -j2; ctest -V --stop-on-failure
