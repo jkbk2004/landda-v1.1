@@ -1,0 +1,9 @@
+[submodule "DA_update"]
+	path = DA_update
+	url = https://github.com/ufs-community/land-DA
+[submodule "ufs-land-driver"]
+	path = ufs-land-driver
+	url = https://github.com/NOAA-EMC/ufs-land-driver
+[submodule "vector2tile"]
+	path = vector2tile
+	url = https://github.com/NOAA-PSL/land-vector2tile
