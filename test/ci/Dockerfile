@@ -1,4 +1,4 @@
-From noaaepic/ubuntu20.04-intel-landda:develop
+From noaaepic/ubuntu20.04-intel-ue-landda:unified-dev-testmp
 
 CMD ["/bin/bash"]
 
